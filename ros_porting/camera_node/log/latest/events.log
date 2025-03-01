@@ -1,0 +1,85 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (camera_node) JobQueued: {'identifier': 'camera_node', 'dependencies': OrderedDict()}
+[0.001282] (camera_node) JobStarted: {'identifier': 'camera_node'}
+[0.100177] (-) TimerEvent: {}
+[0.200946] (-) TimerEvent: {}
+[0.301579] (-) TimerEvent: {}
+[0.402215] (-) TimerEvent: {}
+[0.502833] (-) TimerEvent: {}
+[0.603478] (-) TimerEvent: {}
+[0.704141] (-) TimerEvent: {}
+[0.804702] (-) TimerEvent: {}
+[0.905451] (-) TimerEvent: {}
+[1.006245] (-) TimerEvent: {}
+[1.106985] (-) TimerEvent: {}
+[1.208239] (-) TimerEvent: {}
+[1.309624] (-) TimerEvent: {}
+[1.312472] (camera_node) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', 'build/camera_node', 'build', '--build-base', '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build', 'install', '--record', '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/install.log', '--single-version-externally-managed'], 'cwd': '/home/irvlab/rishi_joshi_ws/src/camera_node', 'env': {'HOSTNAME': 'rosdocker-dtkutzke-meco-orin', 'ROS_PACKAGE_PATH': '/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces/share', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/irvlab', 'OLDPWD': '/home/irvlab/rishi_joshi_ws/src', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/home/irvlab/rishi_joshi_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces/lib/aarch64-linux-gnu/pkgconfig:/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces/lib/pkgconfig', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': '', 'LANG': 'C.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/home/irvlab/rishi_joshi_ws/install/camera_node:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'ROS_MASTER_URI': 'http://localhost:11311', 'PWD': '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/prefix_override:/home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages:/home/irvlab/rishi_joshi_ws/install/camera_node/lib/python3.10/site-packages:/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'ROS_HOSTNAME': 'localhost', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/irvlab/rishi_joshi_ws/install/keypoints_interfaces'}, 'shell': False}
+[1.409790] (-) TimerEvent: {}
+[1.510376] (-) TimerEvent: {}
+[1.610941] (-) TimerEvent: {}
+[1.711905] (-) TimerEvent: {}
+[1.712438] (camera_node) StdoutLine: {'line': b'running egg_info\n'}
+[1.713576] (camera_node) StdoutLine: {'line': b'creating build/camera_node/camera_node.egg-info\n'}
+[1.713945] (camera_node) StdoutLine: {'line': b'writing build/camera_node/camera_node.egg-info/PKG-INFO\n'}
+[1.714458] (camera_node) StdoutLine: {'line': b'writing dependency_links to build/camera_node/camera_node.egg-info/dependency_links.txt\n'}
+[1.714819] (camera_node) StdoutLine: {'line': b'writing entry points to build/camera_node/camera_node.egg-info/entry_points.txt\n'}
+[1.715031] (camera_node) StdoutLine: {'line': b'writing requirements to build/camera_node/camera_node.egg-info/requires.txt\n'}
+[1.715237] (camera_node) StdoutLine: {'line': b'writing top-level names to build/camera_node/camera_node.egg-info/top_level.txt\n'}
+[1.715505] (camera_node) StdoutLine: {'line': b"writing manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[1.718673] (camera_node) StdoutLine: {'line': b"reading manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[1.720476] (camera_node) StdoutLine: {'line': b"writing manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'\n"}
+[1.721109] (camera_node) StdoutLine: {'line': b'running build\n'}
+[1.721352] (camera_node) StdoutLine: {'line': b'running build_py\n'}
+[1.721560] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build\n'}
+[1.721736] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib\n'}
+[1.721868] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.721996] (camera_node) StdoutLine: {'line': b'copying camera_node/hand_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.722167] (camera_node) StdoutLine: {'line': b'copying camera_node/__init__.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.722405] (camera_node) StdoutLine: {'line': b'copying camera_node/pose_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.722853] (camera_node) StdoutLine: {'line': b'copying camera_node/gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.723160] (camera_node) StdoutLine: {'line': b'copying camera_node/visualization_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.723414] (camera_node) StdoutLine: {'line': b'copying camera_node/gesture_recognition_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.723677] (camera_node) StdoutLine: {'line': b'copying camera_node/backup_gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node\n'}
+[1.724193] (camera_node) StdoutLine: {'line': b'running install\n'}
+[1.724543] (camera_node) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.\n'}
+[1.724716] (camera_node) StderrLine: {'line': b'  warnings.warn(\n'}
+[1.725163] (camera_node) StdoutLine: {'line': b'running install_lib\n'}
+[1.726649] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.726901] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/hand_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.727089] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/__init__.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.727305] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/pose_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.727566] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.727833] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/visualization_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.728073] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/gesture_recognition_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.728334] (camera_node) StdoutLine: {'line': b'copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/backup_gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node\n'}
+[1.729542] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/hand_detection_node.py to hand_detection_node.cpython-310.pyc\n'}
+[1.731762] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/__init__.py to __init__.cpython-310.pyc\n'}
+[1.732129] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/pose_detection_node.py to pose_detection_node.cpython-310.pyc\n'}
+[1.733176] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/gesture_recognizer.py to gesture_recognizer.cpython-310.pyc\n'}
+[1.738750] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/visualization_node.py to visualization_node.cpython-310.pyc\n'}
+[1.740085] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/gesture_recognition_node.py to gesture_recognition_node.cpython-310.pyc\n'}
+[1.742201] (camera_node) StdoutLine: {'line': b'byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/backup_gesture_recognizer.py to backup_gesture_recognizer.cpython-310.pyc\n'}
+[1.746076] (camera_node) StdoutLine: {'line': b'running install_data\n'}
+[1.747111] (camera_node) StdoutLine: {'line': b'copying package.xml -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node\n'}
+[1.747443] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource\n'}
+[1.747663] (camera_node) StdoutLine: {'line': b'copying resource/camera_node -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource\n'}
+[1.747904] (camera_node) StdoutLine: {'line': b'copying resource/barbados_trial.json -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource\n'}
+[1.812358] (-) TimerEvent: {}
+[1.853613] (camera_node) StdoutLine: {'line': b'creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch\n'}
+[1.855303] (camera_node) StdoutLine: {'line': b'copying launch/backup_online_osg_launch.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch\n'}
+[1.855719] (camera_node) StdoutLine: {'line': b'copying launch/online_osg_launch.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch\n'}
+[1.856088] (camera_node) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.862528] (camera_node) StdoutLine: {'line': b'Copying build/camera_node/camera_node.egg-info to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node-0.0.0-py3.10.egg-info\n'}
+[1.865213] (camera_node) StdoutLine: {'line': b'running install_scripts\n'}
+[1.912553] (-) TimerEvent: {}
+[1.914477] (camera_node) StdoutLine: {'line': b'Installing camera_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node\n'}
+[1.914982] (camera_node) StdoutLine: {'line': b'Installing gesture_recognition_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node\n'}
+[1.915293] (camera_node) StdoutLine: {'line': b'Installing hand_detection_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node\n'}
+[1.915621] (camera_node) StdoutLine: {'line': b'Installing pose_detection_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node\n'}
+[1.915902] (camera_node) StdoutLine: {'line': b'Installing visualization_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node\n'}
+[1.916924] (camera_node) StdoutLine: {'line': b"writing list of installed files to '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/install.log'\n"}
+[2.007377] (camera_node) CommandEnded: {'returncode': 0}
+[2.020962] (-) TimerEvent: {}
+[2.091448] (camera_node) JobEnded: {'identifier': 'camera_node', 'rc': 0}
+[2.093242] (-) EventReactorShutdown: {}

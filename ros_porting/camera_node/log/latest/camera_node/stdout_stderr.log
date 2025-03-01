@@ -1,0 +1,58 @@
+running egg_info
+creating build/camera_node/camera_node.egg-info
+writing build/camera_node/camera_node.egg-info/PKG-INFO
+writing dependency_links to build/camera_node/camera_node.egg-info/dependency_links.txt
+writing entry points to build/camera_node/camera_node.egg-info/entry_points.txt
+writing requirements to build/camera_node/camera_node.egg-info/requires.txt
+writing top-level names to build/camera_node/camera_node.egg-info/top_level.txt
+writing manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'
+reading manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'
+writing manifest file 'build/camera_node/camera_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/hand_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/__init__.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/pose_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/visualization_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/gesture_recognition_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+copying camera_node/backup_gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node
+running install
+/usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running install_lib
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/hand_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/__init__.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/pose_detection_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/visualization_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/gesture_recognition_node.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+copying /home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/build/lib/camera_node/backup_gesture_recognizer.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/hand_detection_node.py to hand_detection_node.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/pose_detection_node.py to pose_detection_node.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/gesture_recognizer.py to gesture_recognizer.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/visualization_node.py to visualization_node.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/gesture_recognition_node.py to gesture_recognition_node.cpython-310.pyc
+byte-compiling /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node/backup_gesture_recognizer.py to backup_gesture_recognizer.cpython-310.pyc
+running install_data
+copying package.xml -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource
+copying resource/camera_node -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource
+copying resource/barbados_trial.json -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/resource
+creating /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch
+copying launch/backup_online_osg_launch.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch
+copying launch/online_osg_launch.py -> /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/share/camera_node/launch
+running install_egg_info
+Copying build/camera_node/camera_node.egg-info to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/python3.10/site-packages/camera_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing camera_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node
+Installing gesture_recognition_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node
+Installing hand_detection_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node
+Installing pose_detection_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node
+Installing visualization_node script to /home/irvlab/rishi_joshi_ws/src/camera_node/install/camera_node/lib/camera_node
+writing list of installed files to '/home/irvlab/rishi_joshi_ws/src/camera_node/build/camera_node/install.log'

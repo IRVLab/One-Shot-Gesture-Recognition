@@ -1,0 +1,4 @@
+cv_bridge
+opencv-python
+rosidl_default_runtime
+setuptools

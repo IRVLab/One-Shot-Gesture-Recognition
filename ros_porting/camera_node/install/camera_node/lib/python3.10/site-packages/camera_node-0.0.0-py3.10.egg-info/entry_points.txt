@@ -1,0 +1,7 @@
+[console_scripts]
+camera_node = camera_node.camera_node:main
+gesture_recognition_node = camera_node.gesture_recognition_node:main
+hand_detection_node = camera_node.hand_detection_node:main
+pose_detection_node = camera_node.pose_detection_node:main
+visualization_node = camera_node.visualization_node:main
+
